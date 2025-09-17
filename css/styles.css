@@ -479,7 +479,6 @@ a {
 
 
 .modal {
-    padding: 24px;
     border-radius: 4px;
     width: 408px;
     min-height: 584px;
@@ -490,18 +489,35 @@ a {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px;
 }
 .modal-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 24px;
     height: 24px;
     right: 24px;
     position: absolute;
     border-radius: 50%;
     background-color: #e7e9fc;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+.modal-close:hover{
+    border: none;
+    background-color: #404bbf;
+
+}
+.modal-close:focus{
+    background-color: #404bbf;
+    border: none;
+}
+
 .modal-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -607,7 +623,7 @@ a {
 
 }
 .checkbox-icon {
-    
+
 }
 
 .modal-button {
