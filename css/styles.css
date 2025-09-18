@@ -624,7 +624,7 @@ a {
 
 }
 
-#user-privacy:checked + .checkbox {
+#user-privacy:checked +  .modal-label .checkbox {
     background-color: #404bbf;
     border: none;
     fill: #16165c;
