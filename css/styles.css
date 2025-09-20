@@ -511,7 +511,7 @@ a {
 
 /* --- Sections MODAL --- form --- */
 
-/*.backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
