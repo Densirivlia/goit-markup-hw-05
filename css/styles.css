@@ -410,6 +410,7 @@ a {
 .footer-social {
     display: flex;
     flex-direction: column;
+    margin-right: 80px;
 }
 
 .footer-social-text{
@@ -493,7 +494,7 @@ a {
     min-width: 165px;
     height: 40px;
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
